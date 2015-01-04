@@ -1,2 +1,7 @@
-all:
-	hugo --theme=purehugo
+all: build
+
+build:
+	hugo
+
+deploy:
+	

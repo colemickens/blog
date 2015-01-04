@@ -1,3 +1,4 @@
 baseurl = "http://localhost:8000"
 languageCode = "en-us"
 title = "cole.mickens.us"
+theme = "purehugo"
