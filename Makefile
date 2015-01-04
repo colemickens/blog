@@ -3,6 +3,10 @@ all: build
 build:
 	hugo
 
+update:
+	# delete hugo themes directory
+	# re-download hugoThemes
+
 prepare: build
 	git add -A .    ; \
 	git commit -m "publish latest blog source material" ; \

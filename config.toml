@@ -1,4 +1,4 @@
-baseurl = "http://localhost:8000"
+baseurl = "https://cole.mickens.us"
 languageCode = "en-us"
 title = "cole.mickens.us"
 theme = "purehugo"
