@@ -8,7 +8,8 @@ prepare: build
 	git commit -m "publish latest blog source material" && \
 	cd public       && \
 	git add -A .    && \
-	git commit -m "publish latest hugo output"
+	git commit -m "publish latest hugo output" && \
+	cd ..
 
 push: prepare
 	git push && cd public && git push
