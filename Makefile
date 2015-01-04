@@ -1,0 +1,2 @@
+all:
+	hugo --theme=purehugo
