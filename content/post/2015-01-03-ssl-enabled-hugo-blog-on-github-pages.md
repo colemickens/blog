@@ -1,6 +1,7 @@
-1. Setup hugo.
-2. Setup github repo.
-3. Setup hugo for gh-pages.
-4. Move nameservers for blog to point to CloudFlare
-5. CloudFlare imports DNS records, I fixed them up
-6. Done...
+---
+title: "How to host a blog (with HTTPS) for free"
+date: "2015-01-03"
+---
+
+This is about how to set it all up and how I set it up
+

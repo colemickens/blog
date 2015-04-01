@@ -1,6 +1,5 @@
 +++
 date = "2014-12-18T21:52:37-08:00"
-draft = true
 title = "about"
 +++
 

@@ -1,4 +1,5 @@
-baseurl = "https://cole.mickens.us"
+#baseurl = "https://cole.mickens.us"
+baseurl = "http://hugodev.mickens.io"
 languageCode = "en-us"
 title = "cole.mickens.us"
-theme = "purehugo"
+theme = "nofancy"
