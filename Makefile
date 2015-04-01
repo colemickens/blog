@@ -7,6 +7,7 @@ update-hugo-themes:
 	rm -rf themes
 	git clone --recursive https://github.com/spf13/hugoThemes.git themes
 	rm -rf themes/.git
+	rm -rf themes/.gitmodules
 
 build:
 	hugo
