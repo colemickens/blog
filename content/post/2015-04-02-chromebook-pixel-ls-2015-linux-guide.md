@@ -30,7 +30,7 @@ From here, well, hopefully you know the drill. The [Arch Wiki](https://wiki.arch
 
 ## Install the custom kernel
 
-[tsowell](https://github.com/tsowell) is maintaining [a set of kernel patches for Arch and Ubuntu users](https://github.com/tsowell/linux-samus). The patched kernel can be installed via the [linux-samus](https://aur.archlinux.org/packages/linux-samus/) package from the AUR. I assume that [yaourt](https://wiki.archlinux.org/index.php/Yaourt) is already installed; if you use a different [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) then substitute as appropriate.
+[raphael](https://github.com/raphael) is maintaining [a set of kernel patches for Arch and Ubuntu users](https://github.com/raphael/linux-4.1-samus). The patched kernel can be installed via the [linux-samus](https://aur.archlinux.org/packages/linux-samus/) package from the AUR. I assume that [yaourt](https://wiki.archlinux.org/index.php/Yaourt) is already installed; if you use a different [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) then substitute as appropriate.
 
 Note, you'll need to allow GPG to download keys in order for the package to be able to verify the tar archives that they download.
 
