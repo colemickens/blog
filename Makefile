@@ -13,10 +13,15 @@ update-hugo-themes: FORCE
 build: FORCE
 	hugo
 
-publish: FORCE
-	cd ../colemickens.github.io
-	git add -A .
-	git commit -m "publish"
-	git push origin master
+save-blog: FORCE
+	git add -A . ; \
+	git commit -m "publish" ; \
+	git push origin master ; \
+
+publish-blog: build save-blog
+	( cd ../colemickens.io ; \
+		git add -A . ; \
+		&& git commit -m "publish" ; \
+		&& git push origin master )
 
 FORCE:

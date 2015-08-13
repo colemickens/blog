@@ -7,7 +7,7 @@ date: "2015-04-07"
 
 The Chromebook Pixel (2015) is one of my favorite new toys. Another fantastic revision of hardware from Google, and still relatively easy to get Linux on it. As it stands, this is easily my favorite hardware for running Linux on. That having been said, I've been telling others that I am running GNOME3 happily on my Pixel as a day-to-day machine and they have been asking for details. Hopefully this post can serve as an outline of the steps needed!
 
-Note, all of the credit goes to [tsowell](https://github.com/tsowell/linux-samus) and the [Chromium page on the Chromebook Pixel 2015](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/chromebook-pixel-2015). I've just recombined and referenced their work here.
+Note, all of the credit goes to [tsowell](https://github.com/tsowell/linux-samus) and [raphael](https://github.com/raphael/linux-4.1-samus) and the [Chromium page on the Chromebook Pixel 2015](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/chromebook-pixel-2015). I've just recombined and referenced their work here.
 
 ## Put the Pixel into Dev Mode
 
@@ -30,7 +30,7 @@ From here, well, hopefully you know the drill. The [Arch Wiki](https://wiki.arch
 
 ## Install the custom kernel
 
-[raphael](https://github.com/raphael) is maintaining [a set of kernel patches for Arch and Ubuntu users](https://github.com/raphael/linux-4.1-samus). The patched kernel can be installed via the [linux-samus](https://aur.archlinux.org/packages/linux-samus/) package from the AUR. I assume that [yaourt](https://wiki.archlinux.org/index.php/Yaourt) is already installed; if you use a different [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) then substitute as appropriate.
+[raphael](https://github.com/raphael) is maintaining [a set of kernel patches for Arch and Ubuntu users](https://github.com/raphael/linux-4.1-samus). The patched kernel can be installed via the [linux-samus4](https://aur.archlinux.org/packages/linux-samus4/) package from the AUR. I assume that [yaourt](https://wiki.archlinux.org/index.php/Yaourt) is already installed; if you use a different [AUR helper](https://wiki.archlinux.org/index.php/AUR_helpers) then substitute as appropriate.
 
 Note, you'll need to allow GPG to download keys in order for the package to be able to verify the tar archives that they download.
 

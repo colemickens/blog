@@ -1,5 +1,5 @@
-baseurl = "https://cole.mickens.io"
+baseurl = "//colemickens.io"
 languageCode = "en-us"
-title = "cole.mickens.io"
+title = "mickens"
 theme = "hyde"
-publishdir = "../colemickens.github.io/"
+publishdir = "../colemickens.io/"
