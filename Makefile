@@ -18,7 +18,7 @@ save-blog: FORCE
 	git push origin master ; \
 
 publish-blog: build save-blog
-	( cd ../colemickens.io ; \
+	( cd ../colemickens.github.io ; \
 		git add -A . ; \
 		git commit -m "publish" ; \
 		git push origin master )
