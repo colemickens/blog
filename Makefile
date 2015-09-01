@@ -1,5 +1,4 @@
-all:
-	build
+all: build
 
 install-hugo: FORCE
 	go get -u -v github.com/spf13/hugo
