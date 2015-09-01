@@ -1,4 +1,4 @@
-baseurl = "//colemickens.io"
+baseurl = "https://colemickens.io"
 languageCode = "en-us"
 title = "mickens"
 theme = "hyde"
