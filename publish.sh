@@ -5,5 +5,5 @@ rm -rf .git
 git init
 git add -A .
 git commit -m "auto-update"
-git remote origin add git@github.com:colemickens/colemickens.github.io.git
-git push origin master
+git remote add origin git@github.com:colemickens/colemickens.github.io.git
+git push origin master -f
