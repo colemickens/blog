@@ -5,8 +5,4 @@ title = "about"
 
 # about cole
 
-text goes here
-
-# about cole.mickens.us
-
-[cole.mickens.us](http://cole.mickens.us) has been a long time in the making...
+Hi. What's up?
