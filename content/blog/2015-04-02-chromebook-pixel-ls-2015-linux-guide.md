@@ -1,7 +1,9 @@
----
-title: "Arch Linux on the Chromebook Pixel LS (2015)"
-date: "2015-04-07"
----
++++
+title = "Arch Linux on the Chromebook Pixel LS (2015)"
+date = "2015-04-07T00:00:00-06:00"
+alias = "/2015-04-02-chromebook-pixel-ls-2015-linux-guide"
+
++++
 
 (Updated April 24, 2015)
 

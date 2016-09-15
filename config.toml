@@ -1,5 +1,35 @@
 baseurl = "//colemickens.io/"
-languageCode = "en-us"
+builddrafts = false
+languageCode = "en-US"
 title = "mickens"
-theme = "hyde"
+theme = "cocoa"
 publishdir = "../colemickens.github.io/"
+pluralizelisttitles = false
+
+[author]
+  name = "Cole Mickens"
+  github = "colemickens"
+  link = "https://colemickens.io"
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:year-:month-:day-:slug/"
+
+[params]
+description = "Make the Web Fun Again"
+cover = "../../img/desk.jpg"
+author = "Cole Mickens"
+Author = "Cole Mickens"
+Description = "Curious"
+Email = "cole.mickens@gmail.com"
+GitHub = "https://github.com/colemickens"
+Twitter = "https://twitter.com/colemickens"
+LinkedIn = "https://www.linkedin.com/in/colemickens"
+Lang = "en"
+authorlocation = "Seattle, WA"
+authorwebsite = "https://colemickens.io"
+logo = "../../img/hugoSM.png"
+githubName = "colemickens"
+twitterName = "colemickens"
+DateForm = "Jan 2, 2006"
+DateFormFull = "Mon Jan 2 2006 15:04:05 MST"
