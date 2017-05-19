@@ -1,6 +1,7 @@
 +++
-date = "2014-12-18T21:52:37-08:00"
 title = "resume"
-draft = true
 +++
 
+# resume
+
+My latest resume can be found here: [https://colemickens.io/resume-20170519.pdf](https://colemickens.io/resume-20170519.pdf).
